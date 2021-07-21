@@ -1,0 +1,32 @@
+.structure {
+  grid-template-areas: 
+    header
+    cardContainer
+  ;
+}
+
+.cardContainer {
+  grid-area: cardContainer;
+  display: grid;
+  grid-template-columns: 30rem auto;
+  grid-gap: 20px;
+  padding: 10px 30px;
+}
+
+.header {
+  grid-area: header;
+}
+
+.filter {
+  width: 25rem;
+  margin: 2rem 5rem 0;
+  background-color: var(--color-dark-blue);
+  border: 1px solid rgba(151, 145, 255, 0.7);
+  border-radius: 0.5rem;
+  max-height: 50rem;
+  padding: 2rem;
+}
+
+.cards {
+  
+}
